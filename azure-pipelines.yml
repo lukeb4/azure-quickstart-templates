@@ -10,7 +10,7 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 steps:
-- script: pwd; mkdir folder
+- script: pwd
   displayName: 'Run a one-line script'
 
 - script: |
